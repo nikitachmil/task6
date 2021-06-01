@@ -1,0 +1,19 @@
+class Page (
+    val id: Int,
+    val group_id: Int,
+    val creator_id: Int,
+    val title: String,
+    val currenl_user_can_edit: Boolean,
+    val currenl_user_can_edit_acces: Boolean,
+    val who_can_view: Boolean,
+    val who_can_edit: Boolean,
+    val edited: Int,
+    val created: Int,
+    val editor_id: Int,
+    val views: Int,
+    val parent: String,
+    val parent2: String,
+    val source: String,
+    val html: String,
+    val view_url: String
+        )
